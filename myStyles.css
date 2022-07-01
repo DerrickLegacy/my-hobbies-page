@@ -2,21 +2,7 @@
 body{
     background-color: #e1f2f7;
 }
-span{
 
-    color: black;
-    background-color: rgb(244, 191, 221);
-    background-size: 20px 20px;
-    background-repeat: no-repeat;
-    background-position: 2px;
-    padding: 2px;  
-    border-radius: 4px 4px 8px;
-    border: 1px solid;
-    position: relative;
-    padding-left:4px ;
-    display: inline-block;
-    
-}
 div{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     position: relative;
@@ -34,7 +20,7 @@ div{
     width: 33.333%;
     background-color: #d4c7e0e8;
     float: left;
-    padding-top: 20px;
+    
 }
  .bio:hover{
     background-color:#e91845
@@ -45,12 +31,17 @@ div{
 .photo{
     height: 1.5cm;
     width: 33.333%;
-    padding-top: 20px;
+
     background-color: rgba(42, 19, 132, 0.831);
     display: inline-block;
     margin-left:33.333%;
+    
  
 
+}
+
+.photo p {
+    padding-left: 7rem;
 }
 .photo:hover{
     background-color:#e91845
@@ -104,7 +95,9 @@ p{
     margin-left:33.333%;
 
 }
-
+.contact p {
+    padding-left: 7rem;
+}
 .contact:hover{
     background-color:#e91845
     
